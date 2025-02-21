@@ -3,47 +3,69 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gerador de Senhas e Frases-Senha</title>
+    <title>Gerador de Senhas e Frases-Senhas</title>
     <style>
         body {
             font-family: Arial, sans-serif;
             text-align: center;
             margin-top: 50px;
-            background-color: #f0f0f0;
+            background-color: #1a1a1a;
+            color: #f0e6d2;
         }
         h1 {
-            color: #333;
+            color: #f0e6d2;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            margin: 20px;
         }
         .section {
-            margin: 20px;
             padding: 20px;
-            background-color: #fff;
-            border-radius: 5px;
+            background-color: #2d2d2d;
+            border-radius: 8px;
             display: inline-block;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+        }
+        .frase-senha {
+            width: 400px;
+        }
+        .senha-aleatoria {
+            width: 650px;
         }
         label {
             margin-right: 10px;
+            color: #f0e6d2;
         }
         input[type="number"], input[type="text"] {
             padding: 5px;
             width: 60px;
             margin-right: 10px;
+            background-color: #3c3c3c;
+            border: 1px solid #4a4a4a;
+            color: #f0e6d2;
+            border-radius: 4px;
+        }
+        input[type="checkbox"] {
+            margin-right: 5px;
         }
         button {
             padding: 10px 20px;
             font-size: 16px;
             cursor: pointer;
-            background-color: #4CAF50;
+            background-color: #4a7f50;
             color: white;
             border: none;
-            border-radius: 5px;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         }
         button:disabled {
-            background-color: #cccccc;
+            background-color: #4a4a4a;
             cursor: not-allowed;
         }
         button:hover:not(:disabled) {
-            background-color: #45a049;
+            background-color: #3a6f40;
         }
         #divisaoderesultados {
             margin-top: 40px;
@@ -54,28 +76,30 @@
         #result {
             font-size: 45px;
             font-weight: bold;
-            color: #222;
-            background-color: #fff;
+            color: #f0e6d2;
+            background-color: #2d2d2d;
             padding: 15px;
-            border-radius: 5px;
+            border-radius: 8px;
             min-width: 300px;
             word-break: break-all;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
         #copiarareadetransferencia {
             margin-top: 10px;
             padding: 10px 18px;
             font-size: 17px;
-            background-color: #008CBA;
+            background-color: #4a7f50;
             color: white;
             border: none;
             border-radius: 8px;
             cursor: pointer;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
         }
         #copiarareadetransferencia:hover {
-            background-color: #007B9A;
+            background-color: #3a6f40;
         }
         #copiamensagem {
-            color: green;
+            color: #90ee90;
             margin-top: 10px;
             font-size: 16px;
         }
@@ -85,29 +109,31 @@
     <h1>NUPTRIC - COSEC</h1>
     <h1>Gerador de Senhas e Frases-Senhas</h1>
     <p>Escolha uma das opções abaixo para gerar sua senha ou frase-senha:</p>
-    <div class="section">
-        <h2>Senha Aleatória</h2>
-        <label>Comprimento:</label>
-        <input type="number" id="tamanhodasenha" min="1" value="14">
-        <br><br>
-        <label><input type="checkbox" id="minuscula" checked> Minúsculas (a-z)</label>
-        <label><input type="checkbox" id="maiuscula" checked> Maiúsculas (A-Z)</label>
-        <label><input type="checkbox" id="numerosapenas" checked> Números (0-9)</label>
-        <label><input type="checkbox" id="caracteresespeciais"> Especiais (!@#$%)</label>
-        <br><br>
-        <button id="gerasenhabotao">Gerar Senha Aleatória</button>
-    </div>
-    <div class="section">
-        <h2>Frase-Senha</h2>
-        <label>Comprimento mínimo:</label>
-        <input type="number" id="tamanhominimo" min="1" value="14">
-        <br><br>
-        <label><input type="checkbox" id="capitalizar"> Capitalizar primeira letra</label>
-        <br><br>
-        <label>Delimitador:</label>
-        <input type="text" id="separador" value="-" maxlength="1">
-        <br><br>
-        <button id="gerarfrasesenhabotao" disabled>Gerar Frase-Senha</button>
+    <div class="container">
+        <div class="section frase-senha">
+            <h2>Frase-Senha</h2>
+            <label>Comprimento mínimo:</label>
+            <input type="number" id="tamanhominimo" min="14" value="14">
+            <br><br>
+            <label><input type="checkbox" id="capitalizar"> Capitalizar primeira letra</label>
+            <br><br>
+            <label>Delimitador:</label>
+            <input type="text" id="separador" value="-" maxlength="1">
+            <br><br>
+            <button id="gerarfrasesenhabotao" disabled>Gerar Frase-Senha</button>
+        </div>
+        <div class="section senha-aleatoria">
+            <h2>Senha Aleatória</h2>
+            <label>Comprimento:</label>
+            <input type="number" id="tamanhodasenha" min="14" value="14">
+            <br><br>
+            <label><input type="checkbox" id="minuscula" checked> Minúsculas (a-z)</label>
+            <label><input type="checkbox" id="maiuscula" checked> Maiúsculas (A-Z)</label>
+            <label><input type="checkbox" id="numerosapenas" checked> Números (0-9)</label>
+            <label><input type="checkbox" id="caracteresespeciais"> Especiais (!@#$%)</label>
+            <br><br>
+            <button id="gerasenhabotao">Gerar Senha Aleatória</button>
+        </div>
     </div>
     <div id="divisaoderesultados">
         <div id="result"></div>
@@ -122,7 +148,8 @@
         const resultado_div = document.getElementById('result');
         const copiarareadetransferencia = document.getElementById('copiarareadetransferencia');
         const copiamensagem = document.getElementById('copiamensagem');
-        fetch('palavras.txt')
+        
+        fetch('arquivosemacentos.txt')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Arquivo não encontrado');
@@ -143,100 +170,99 @@
                 resultado_div.innerText = 'Erro ao carregar o arquivo de palavras.';
             });
 
-
         function criafrasesenha() {
-        const tamanhominimo = parseInt(document.getElementById('tamanhominimo').value);
-        const capitalizacao = document.getElementById('capitalizar').checked;
-        const separador = document.getElementById('separador').value || '-';
+            const tamanhominimo = parseInt(document.getElementById('tamanhominimo').value);
+            const capitalizacao = document.getElementById('capitalizar').checked;
+            const separador = document.getElementById('separador').value || '-';
 
-        if (isNaN(tamanhominimo) || tamanhominimo < 1) {
-            resultado_div.innerText = 'Erro: Comprimento mínimo inválido.';
-            return;
-        }
-
-        if (palavras_portugues_br.length === 0) {
-            resultado_div.innerText = 'Erro: Lista de palavras não carregada.';
-            return;
-        }
-
-        let selectedpalavras_portugues_br = [];
-        let tamanhototal = 0;
-
-        const maxAttempts = 100;
-        const randomValues = new Uint32Array(maxAttempts);
-        crypto.getRandomValues(randomValues);
-        let randomIndex = 0;
-
-        while (tamanhototal < tamanhominimo && randomIndex < maxAttempts) {
-            let indiceAleatorio = randomValues[randomIndex] % palavras_portugues_br.length;
-            let palavra = palavras_portugues_br[indiceAleatorio];
-            
-            if (!selectedpalavras_portugues_br.includes(palavra)) {
-                if (capitalizacao) {
-                    palavra = palavra.charAt(0).toUpperCase() + palavra.slice(1);
-                }
-                let tamanhodapalavra = palavra.length;
-                let totalnovo = selectedpalavras_portugues_br.length === 0 ? tamanhodapalavra : tamanhototal + separador.length + tamanhodapalavra;
-                if (totalnovo <= 100) {
-                    tamanhototal = totalnovo;
-                    selectedpalavras_portugues_br.push(palavra);
-                }
+            if (isNaN(tamanhominimo) || tamanhominimo < 14) {
+                resultado_div.innerText = 'Erro: Comprimento mínimo deve ser pelo menos 14.';
+                return;
             }
-            randomIndex++;
-        }
 
-        let frase_senha = selectedpalavras_portugues_br.join(separador);
-        resultado_div.innerText = frase_senha;
-        copiarareadetransferencia.style.display = 'inline-block';
-    }
+            if (palavras_portugues_br.length === 0) {
+                resultado_div.innerText = 'Erro: Lista de palavras não carregada.';
+                return;
+            }
+
+            let selectedpalavras_portugues_br = [];
+            let tamanhototal = 0;
+
+            const maximotentativas = 1000;
+            const randomico = new Uint32Array(maximotentativas);
+            crypto.getRandomValues(randomico);
+            let indicerandomico = 0;
+
+            while (tamanhototal < tamanhominimo && indicerandomico < maximotentativas) {
+                let indiceAleatorio = randomico[indicerandomico] % palavras_portugues_br.length;
+                let palavra = palavras_portugues_br[indiceAleatorio];
+                
+                if (!selectedpalavras_portugues_br.includes(palavra)) {
+                    if (capitalizacao) {
+                        palavra = palavra.charAt(0).toUpperCase() + palavra.slice(1);
+                    }
+                    let tamanhodapalavra = palavra.length;
+                    let totalnovo = selectedpalavras_portugues_br.length === 0 ? tamanhodapalavra : tamanhototal + separador.length + tamanhodapalavra;
+                    if (totalnovo <= 100) {
+                        tamanhototal = totalnovo;
+                        selectedpalavras_portugues_br.push(palavra);
+                    }
+                }
+                indicerandomico++;
+            }
+
+            let frase_senha = selectedpalavras_portugues_br.join(separador);
+            resultado_div.innerText = frase_senha;
+            copiarareadetransferencia.style.display = 'inline-block';
+        }
 
         function criasenhaaleatoria() {
-        const tamanho_senha = parseInt(document.getElementById('tamanhodasenha').value);
-        const minuscula = document.getElementById('minuscula').checked;
-        const maiuscula = document.getElementById('maiuscula').checked;
-        const numerosapenas = document.getElementById('numerosapenas').checked;
-        const caracteresespeciais = document.getElementById('caracteresespeciais').checked;
+            const tamanho_senha = parseInt(document.getElementById('tamanhodasenha').value);
+            const minuscula = document.getElementById('minuscula').checked;
+            const maiuscula = document.getElementById('maiuscula').checked;
+            const numerosapenas = document.getElementById('numerosapenas').checked;
+            const caracteresespeciais = document.getElementById('caracteresespeciais').checked;
 
-        if (isNaN(tamanho_senha) || tamanho_senha < 1) {
-            resultado_div.innerText = 'Erro: Comprimento inválido.';
-            return;
+            if (isNaN(tamanho_senha) || tamanho_senha < 14) {
+                resultado_div.innerText = 'Erro: Comprimento deve ser pelo menos 14.';
+                return;
+            }
+
+            let conjuntodecaracteres = "";
+            if (minuscula) conjuntodecaracteres += "abcdefghijklmnopqrstuvwxyz";
+            if (maiuscula) conjuntodecaracteres += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+            if (numerosapenas) conjuntodecaracteres += "0123456789";
+            if (caracteresespeciais) conjuntodecaracteres += "!@#$%^&*()_+[]{}|\/~';:,.<>?=";
+
+            if (conjuntodecaracteres === "") {
+                resultado_div.innerText = 'Erro: Selecione pelo menos um tipo de caractere.';
+                return;
+            }
+
+            let senha = "";
+            const randomico = new Uint32Array(tamanho_senha);
+            crypto.getRandomValues(randomico);
+            
+            for (let contador = 0; contador < tamanho_senha; contador++) {
+                let indicealeatorio = randomico[contador] % conjuntodecaracteres.length;
+                senha += conjuntodecaracteres[indicealeatorio];
+            }
+
+            resultado_div.innerText = senha;
+            copiarareadetransferencia.style.display = 'inline-block';
         }
-
-        let conjuntodecaracteres = "";
-        if (minuscula) conjuntodecaracteres += "abcdefghijklmnopqrstuvwxyz";
-        if (maiuscula) conjuntodecaracteres += "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-        if (numerosapenas) conjuntodecaracteres += "0123456789";
-        if (caracteresespeciais) conjuntodecaracteres += "!@#$%^&*()_+[]{}|\/~';:,.<>?=";
-
-        if (conjuntodecaracteres === "") {
-            resultado_div.innerText = 'Erro: Selecione pelo menos um tipo de caractere.';
-            return;
-        }
-
-        let senha = "";
-        const randomValues = new Uint32Array(tamanho_senha);
-        crypto.getRandomValues(randomValues);
-        
-        for (let contador = 0; contador < tamanho_senha; contador++) {
-            let indicealeatorio = randomValues[contador] % conjuntodecaracteres.length;
-            senha += conjuntodecaracteres[indicealeatorio];
-        }
-
-        resultado_div.innerText = senha;
-        copiarareadetransferencia.style.display = 'inline-block';
-    }
 
         function copiaparaareadetransferencia() {
-                const texto = resultado_div.innerText;
-                navigator.clipboard.writeText(texto).then(() => {
-                    copiamensagem.innerText = 'Copiado para a área de transferência!';
-                    setTimeout(() => {
-                        copiamensagem.innerText = '';
-                    }, 4000);
-                }).catch(err => {
-                    console.error('Erro ao copiar:', err);
-                });
-            }
+            const texto = resultado_div.innerText;
+            navigator.clipboard.writeText(texto).then(() => {
+                copiamensagem.innerText = 'Copiado para a área de transferência!';
+                setTimeout(() => {
+                    copiamensagem.innerText = '';
+                }, 4000);
+            }).catch(err => {
+                console.error('Erro ao copiar:', err);
+            });
+        }
 
         gerarfrasesenhabotao.addEventListener('click', criafrasesenha);
         gerasenhabotao.addEventListener('click', criasenhaaleatoria);
