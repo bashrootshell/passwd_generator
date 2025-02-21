@@ -151,7 +151,7 @@
         const separadorInput = document.getElementById('separador');
 
         // Lista de delimitadores possíveis
-        const delimitadores = ['-', '@', '$', '#', '!', ':', '.', '_'];
+        const delimitadores = ['_', '&', '-', '%', '@', '$'];
 
         // Função para gerar delimitador aleatório seguro
         function gerarDelimitadorAleatorio() {
@@ -163,7 +163,7 @@
         // Definir um delimitador aleatório ao carregar a página
         separadorInput.value = gerarDelimitadorAleatorio();
 
-        fetch('palavras.txt')
+        fetch('arquivosemacentos.txt')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Arquivo não encontrado');
