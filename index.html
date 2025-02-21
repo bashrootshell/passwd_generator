@@ -29,10 +29,10 @@
             box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
         }
         .frase-senha {
-            width: 400px;
+            width: 300px;
         }
         .senha-aleatoria {
-            width: 650px;
+            width: 350px;
         }
         label {
             margin-right: 10px;
@@ -117,8 +117,8 @@
             <br><br>
             <label><input type="checkbox" id="capitalizar"> Capitalizar primeira letra</label>
             <br><br>
-            <label>Delimitador:</label>
-            <input type="text" id="separador" value="-" maxlength="1">
+            <label>Delimitador (aleatório):</label>
+            <input type="text" id="separador" value="" maxlength="1" readonly>
             <br><br>
             <button id="gerarfrasesenhabotao" disabled>Gerar Frase-Senha</button>
         </div>
@@ -148,8 +148,22 @@
         const resultado_div = document.getElementById('result');
         const copiarareadetransferencia = document.getElementById('copiarareadetransferencia');
         const copiamensagem = document.getElementById('copiamensagem');
-        
-        fetch('arquivosemacentos.txt')
+        const separadorInput = document.getElementById('separador');
+
+        // Lista de delimitadores possíveis
+        const delimitadores = ['&', '-', '%', '@', '$', '#', '!', ':', '.', '?'];
+
+        // Função para gerar delimitador aleatório seguro
+        function gerarDelimitadorAleatorio() {
+            const randomIndex = new Uint32Array(1);
+            crypto.getRandomValues(randomIndex);
+            return delimitadores[randomIndex[0] % delimitadores.length];
+        }
+
+        // Definir um delimitador aleatório ao carregar a página
+        separadorInput.value = gerarDelimitadorAleatorio();
+
+        fetch('palavras.txt')
             .then(response => {
                 if (!response.ok) {
                     throw new Error('Arquivo não encontrado');
@@ -171,9 +185,12 @@
             });
 
         function criafrasesenha() {
+            // Gerar novo delimitador aleatório antes de criar a frase-senha
+            separadorInput.value = gerarDelimitadorAleatorio();
+            
             const tamanhominimo = parseInt(document.getElementById('tamanhominimo').value);
             const capitalizacao = document.getElementById('capitalizar').checked;
-            const separador = document.getElementById('separador').value || '-';
+            const separador = separadorInput.value || '-';
 
             if (isNaN(tamanhominimo) || tamanhominimo < 14) {
                 resultado_div.innerText = 'Erro: Comprimento mínimo deve ser pelo menos 14.';
@@ -188,13 +205,13 @@
             let selectedpalavras_portugues_br = [];
             let tamanhototal = 0;
 
-            const maximotentativas = 1000;
-            const randomico = new Uint32Array(maximotentativas);
-            crypto.getRandomValues(randomico);
-            let indicerandomico = 0;
+            const maxAttempts = 100;
+            const randomValues = new Uint32Array(maxAttempts);
+            crypto.getRandomValues(randomValues);
+            let randomIndex = 0;
 
-            while (tamanhototal < tamanhominimo && indicerandomico < maximotentativas) {
-                let indiceAleatorio = randomico[indicerandomico] % palavras_portugues_br.length;
+            while (tamanhototal < tamanhominimo && randomIndex < maxAttempts) {
+                let indiceAleatorio = randomValues[randomIndex] % palavras_portugues_br.length;
                 let palavra = palavras_portugues_br[indiceAleatorio];
                 
                 if (!selectedpalavras_portugues_br.includes(palavra)) {
@@ -208,7 +225,7 @@
                         selectedpalavras_portugues_br.push(palavra);
                     }
                 }
-                indicerandomico++;
+                randomIndex++;
             }
 
             let frase_senha = selectedpalavras_portugues_br.join(separador);
@@ -240,11 +257,11 @@
             }
 
             let senha = "";
-            const randomico = new Uint32Array(tamanho_senha);
-            crypto.getRandomValues(randomico);
+            const randomValues = new Uint32Array(tamanho_senha);
+            crypto.getRandomValues(randomValues);
             
             for (let contador = 0; contador < tamanho_senha; contador++) {
-                let indicealeatorio = randomico[contador] % conjuntodecaracteres.length;
+                let indicealeatorio = randomValues[contador] % conjuntodecaracteres.length;
                 senha += conjuntodecaracteres[indicealeatorio];
             }
 
