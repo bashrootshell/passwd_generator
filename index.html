@@ -150,17 +150,14 @@
         const copiamensagem = document.getElementById('copiamensagem');
         const separadorInput = document.getElementById('separador');
 
-        // Lista de delimitadores possíveis
         const delimitadores = ['_', '&', '-', '%', '@', '$'];
 
-        // Função para gerar delimitador aleatório seguro
         function gerarDelimitadorAleatorio() {
-            const randomIndex = new Uint32Array(1);
-            crypto.getRandomValues(randomIndex);
-            return delimitadores[randomIndex[0] % delimitadores.length];
+            const indicerandomico = new Uint32Array(1);
+            crypto.getRandomValues(indicerandomico);
+            return delimitadores[indicerandomico[0] % delimitadores.length];
         }
 
-        // Definir um delimitador aleatório ao carregar a página
         separadorInput.value = gerarDelimitadorAleatorio();
 
         fetch('arquivosemacentos.txt')
@@ -185,7 +182,6 @@
             });
 
         function criafrasesenha() {
-            // Gerar novo delimitador aleatório antes de criar a frase-senha
             separadorInput.value = gerarDelimitadorAleatorio();
             
             const tamanhominimo = parseInt(document.getElementById('tamanhominimo').value);
@@ -205,13 +201,13 @@
             let selectedpalavras_portugues_br = [];
             let tamanhototal = 0;
 
-            const maxAttempts = 100;
-            const randomValues = new Uint32Array(maxAttempts);
-            crypto.getRandomValues(randomValues);
-            let randomIndex = 0;
+            const maximo = 1000;
+            const randomico = new Uint32Array(maximo);
+            crypto.getRandomValues(randomico);
+            let indicerandomico = 0;
 
-            while (tamanhototal < tamanhominimo && randomIndex < maxAttempts) {
-                let indiceAleatorio = randomValues[randomIndex] % palavras_portugues_br.length;
+            while (tamanhototal < tamanhominimo && indicerandomico < maximo) {
+                let indiceAleatorio = randomico[indicerandomico] % palavras_portugues_br.length;
                 let palavra = palavras_portugues_br[indiceAleatorio];
                 
                 if (!selectedpalavras_portugues_br.includes(palavra)) {
@@ -225,7 +221,7 @@
                         selectedpalavras_portugues_br.push(palavra);
                     }
                 }
-                randomIndex++;
+                indicerandomico++;
             }
 
             let frase_senha = selectedpalavras_portugues_br.join(separador);
@@ -257,11 +253,11 @@
             }
 
             let senha = "";
-            const randomValues = new Uint32Array(tamanho_senha);
-            crypto.getRandomValues(randomValues);
+            const randomico = new Uint32Array(tamanho_senha);
+            crypto.getRandomValues(randomico);
             
             for (let contador = 0; contador < tamanho_senha; contador++) {
-                let indicealeatorio = randomValues[contador] % conjuntodecaracteres.length;
+                let indicealeatorio = randomico[contador] % conjuntodecaracteres.length;
                 senha += conjuntodecaracteres[indicealeatorio];
             }
 
