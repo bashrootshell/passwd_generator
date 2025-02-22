@@ -279,7 +279,6 @@ alienar
 alijar
 alinea
 alinhar
-alisar
 alistar
 aliviar
 alivio
@@ -315,14 +314,12 @@ alvitre
 alvo
 alvor
 alvura
-amaciar
 amado
 amador
 amadora
 amainar
 amanha
 amansar
-amante
 amar
 amarelo
 amargar
@@ -330,7 +327,6 @@ amargo
 amargor
 amarra
 amarrar
-amassar
 amavel
 amazona
 ambicao
@@ -367,7 +363,6 @@ ampola
 amuado
 amuleto
 anais
-anal
 analise
 analogo
 ananas
@@ -1533,7 +1528,6 @@ cobro
 coca
 cocar
 cocega
-cocoras
 codea
 codigo
 coelho
@@ -1546,7 +1540,6 @@ coibir
 coice
 coisa
 coitado
-coito
 cola
 colacao
 colado
@@ -4317,7 +4310,6 @@ ordenha
 orelha
 orfao
 orgao
-orgasmo
 orgia
 orgulho
 oriente
@@ -6113,7 +6105,6 @@ vaga
 vagao
 vagar
 vagem
-vaginal
 vago
 vaguear
 vaia
@@ -6287,10 +6278,8 @@ violino
 viracao
 virado
 virar
-virgem
 virgula
 viril
-virilha
 virtual
 virtude
 virus
