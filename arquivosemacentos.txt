@@ -1327,7 +1327,6 @@ cerrar
 cerro
 certeza
 certo
-cerveja
 cesar
 cessao
 cessar
@@ -5775,12 +5774,9 @@ tranca
 trancar
 trancar
 tranco
-transa
-transar
 transe
 trapo
 tras
-traste
 tratado
 tratar
 trato
@@ -5817,7 +5813,6 @@ trincar
 trinco
 trinta
 trio
-tripa
 triplo
 triste
 triunfo
@@ -5830,7 +5825,6 @@ trocar
 troco
 troco
 tromba
-trompa
 tronco
 trono
 tropa
@@ -5872,7 +5866,6 @@ tutano
 tutela
 tutelar
 tutor
-uisque
 uivar
 uivo
 ulcera
@@ -6077,7 +6070,6 @@ vingado
 vingar
 vinha
 vinhedo
-vinho
 vinte
 vintem
 viola
