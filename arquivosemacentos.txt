@@ -553,7 +553,6 @@ arrocho
 arroio
 arrojar
 arrojo
-arromba
 arrotar
 arroubo
 arroz
@@ -574,8 +573,6 @@ asfalto
 asfixia
 asilo
 asma
-asneira
-asno
 aspa
 aspecto
 aspero
@@ -702,7 +699,6 @@ avivar
 avulso
 avultar
 axial
-axila
 axilar
 axioma
 azafama
@@ -762,7 +758,6 @@ baleado
 baleia
 balir
 baliza
-balofo
 balsa
 balsamo
 baltico
@@ -828,7 +823,6 @@ batalha
 batata
 batedor
 batel
-bater
 bateria
 batida
 batido
@@ -871,7 +865,6 @@ berco
 berrar
 berro
 besouro
-bestial
 beta
 bexiga
 bezerro
@@ -902,7 +895,6 @@ bisneto
 bisonho
 bisonte
 bispo
-bitola
 bizarro
 bloco
 blusa
@@ -953,7 +945,6 @@ borda
 bordado
 bordao
 bordar
-bordel
 bordo
 boro
 borrao
@@ -1029,19 +1020,16 @@ budismo
 budista
 bueiro
 bufalo
-bufar
 bufo
 bula
 bulbo
 bulgaro
-bulicio
 bulir
 buraco
 burgo
 burgues
 burla
 burlar
-burrice
 burrico
 busca
 buscado
@@ -1056,7 +1044,6 @@ cabaca
 cabaco
 cabana
 cabeca
-cabecao
 cabelo
 caber
 cabide
@@ -1065,14 +1052,6 @@ cabine
 cabivel
 cabo
 caboclo
-cabra
-cabrita
-cabrito
-caca
-cacado
-cacador
-cacao
-cacar
 cachaca
 cacho
 cacique
@@ -1090,12 +1069,9 @@ cadete
 caducar
 caduco
 cafe
-cagar
 caiado
-caiar
 caibro
 caido
-caipira
 cair
 cairo
 cais
@@ -1114,7 +1090,6 @@ calcio
 calculo
 calda
 caldo
-cale
 calha
 calhar
 calhau
@@ -1149,8 +1124,6 @@ campina
 campo
 campus
 camurca
-cana
-canal
 canape
 canario
 cancao
@@ -1164,11 +1137,9 @@ caneco
 canela
 caneta
 canga
-cangaco
 canguru
 canhao
 canhoto
-canibal
 canico
 canino
 canja
@@ -1233,10 +1204,7 @@ carimbo
 carinho
 carioca
 carisma
-carnal
 carne
-carnica
-carnudo
 caro
 caroco
 carona
@@ -1433,7 +1401,6 @@ choroso
 chover
 chumbar
 chumbo
-chupar
 chusma
 chutar
 chute
@@ -1451,7 +1418,6 @@ cifrar
 cigana
 cigano
 cigarra
-cigarro
 cilada
 ciliado
 ciliar
@@ -1568,7 +1534,6 @@ colorir
 colosso
 coluna
 coma
-comadre
 comando
 comarca
 combate
@@ -1579,12 +1544,10 @@ comeco
 comedia
 comenda
 comento
-comer
 cometa
 cometer
 comicio
 comida
-como
 comocao
 comover
 compor
@@ -1670,8 +1633,6 @@ corte
 cortejo
 cortes
 cortex
-cortica
-cortico
 cortina
 coruja
 corvo
@@ -1687,8 +1648,6 @@ cota
 cotacao
 cotado
 cotar
-coto
-cotovia
 couraca
 couro
 couto
@@ -1753,7 +1712,6 @@ cubico
 cubismo
 cubo
 cuco
-cueca
 cuia
 cuidado
 cuidar
@@ -1862,9 +1820,7 @@ deitar
 deixar
 delator
 delegar
-deleite
 delgado
-delicia
 delirar
 delirio
 delito
@@ -1886,7 +1842,6 @@ dentada
 dentado
 dente
 dentro
-dentuca
 deparar
 depois
 depor
@@ -1917,7 +1872,6 @@ desovar
 despejo
 despesa
 despido
-despir
 despojo
 despota
 destino
@@ -2076,7 +2030,6 @@ duende
 dueto
 duma
 duna
-duodeno
 dupla
 duplo
 duque
@@ -2257,8 +2210,6 @@ erario
 eremita
 erguer
 erguido
-ericado
-erigir
 ermida
 ermo
 erosao
@@ -2309,7 +2260,6 @@ esforco
 esfriar
 esganar
 esgotar
-esgoto
 esgrima
 esguio
 eslavo
@@ -2416,7 +2366,6 @@ estria
 estribo
 estrito
 estrofe
-estrume
 estudar
 estudio
 estudo
@@ -2543,7 +2492,6 @@ farofa
 farol
 farpa
 farpado
-farra
 farrapo
 farsa
 farta
@@ -2573,7 +2521,6 @@ fechar
 fecho
 fecundo
 fedelho
-feder
 federal
 feicao
 feijao
@@ -2797,8 +2744,6 @@ freio
 freira
 fremir
 frente
-fresca
-fresco
 fresta
 frete
 friagem
@@ -2815,7 +2760,6 @@ frontal
 frontao
 fronte
 frota
-frouxo
 fruicao
 fruir
 fruta
@@ -2862,8 +2806,6 @@ fuso
 futebol
 futil
 futuro
-fuzil
-fuzilar
 gabar
 gabo
 gado
@@ -2871,11 +2813,7 @@ gago
 gaiola
 gaita
 gaivota
-gajo
-gala
-gala
 galante
-galao
 galaxia
 galego
 galera
@@ -2934,13 +2872,10 @@ geleira
 gelido
 gelo
 gema
-gemer
-gemido
 gene
 general
 gengiva
 genial
-genital
 genro
 gente
 gentil
@@ -3001,13 +2936,11 @@ gorjeta
 gorro
 gostar
 gosto
-gostoso
 gota
 goteira
 gotejar
 gotico
 governo
-gozar
 graca
 gracejo
 grade
@@ -3028,7 +2961,6 @@ granito
 granizo
 granja
 grao
-grasnar
 gratis
 grato
 grau
@@ -3051,7 +2983,6 @@ grilo
 gringo
 gripe
 grita
-gritar
 grito
 grosso
 grudado
@@ -3074,7 +3005,6 @@ guincho
 guisa
 guizo
 gula
-guloso
 gume
 habeas
 habil
@@ -3100,7 +3030,6 @@ heresia
 heroi
 heroico
 heroina
-herpes
 hesitar
 hiato
 hibrido
@@ -3136,7 +3065,6 @@ hulha
 humano
 humilde
 humor
-humus
 hungaro
 huno
 iate
@@ -3239,7 +3167,6 @@ infamia
 infeliz
 inferir
 inferno
-infiel
 infimo
 inflar
 influir
@@ -3254,7 +3181,6 @@ inibir
 inicial
 iniciar
 inicio
-inimigo
 injuria
 injusto
 inocuo
@@ -3315,7 +3241,6 @@ isolado
 isolar
 isotopo
 isso
-istmo
 isto
 italico
 jacare
@@ -3417,7 +3342,6 @@ lajedo
 lama
 lamacal
 lambada
-lamber
 lameiro
 lamento
 lamina
@@ -3508,13 +3432,10 @@ leoa
 lepido
 lepra
 leque
-lerdo
 lesado
 lesao
 lesar
-lesbica
 lesivo
-lesma
 leste
 letra
 letrado
@@ -3523,7 +3444,6 @@ levante
 levar
 leve
 leveza
-leviano
 lexico
 libanes
 liberal
@@ -3728,10 +3648,8 @@ malogro
 malta
 maluco
 malvado
-mama
 mamae
 mamao
-mamar
 mana
 manada
 mancar
@@ -3799,10 +3717,8 @@ massa
 massivo
 mastro
 mata
-matador
 matagal
 matanca
-matar
 mate
 materia
 materno
@@ -3851,7 +3767,6 @@ melado
 melao
 melhor
 melodia
-melro
 membro
 mencao
 mendigo
@@ -3902,7 +3817,6 @@ micro-ondas
 midia
 migalha
 migrar
-mijar
 milagre
 milenar
 milha
@@ -3953,12 +3867,9 @@ mitra
 miudeza
 miudo
 mobilia
-moca
-mocao
 mochila
 mocinha
 mocinho
-moco
 moda
 modelar
 modelo
@@ -4024,7 +3935,6 @@ mosca
 mostra
 mostrar
 mote
-motel
 motivar
 motivo
 moto
@@ -4036,8 +3946,6 @@ movel
 mover
 movido
 muar
-muco
-mucosa
 mudado
 mudanca
 mudar
@@ -4054,8 +3962,6 @@ mulher
 multa
 multar
 mumia
-mundana
-mundano
 mundial
 mundo
 municao
@@ -4078,7 +3984,6 @@ musicar
 musico
 mutacao
 mutavel
-mutilar
 mutirao
 mutuo
 nabo
@@ -4112,9 +4017,6 @@ navalha
 nave
 navegar
 navio
-nazi
-nazismo
-nazista
 neblina
 nefando
 nefasto
@@ -4198,16 +4100,13 @@ nublado
 nuca
 nuclear
 nucleo
-nudez
 nulo
 numero
 nunca
-nupcial
 nutrido
 nutrir
 nuvem
 oasis
-obeso
 obliquo
 oblongo
 oboe
@@ -4295,8 +4194,6 @@ opus
 oracao
 oraculo
 orador
-oral
-orar
 orbita
 orbital
 orca
@@ -4309,7 +4206,6 @@ ordenha
 orelha
 orfao
 orgao
-orgia
 orgulho
 oriente
 origem
@@ -4389,14 +4285,11 @@ palhoca
 palidez
 palido
 palito
-palma
-palmada
 palmito
 palmo
 palpite
 pampa
 panca
-pancada
 panela
 panico
 pano
@@ -4419,7 +4312,6 @@ parado
 paragem
 paraiso
 parar
-parca
 parcela
 parcial
 parco
@@ -4485,11 +4377,6 @@ pavao
 pavio
 pavor
 peao
-peca
-pecado
-pecador
-pecar
-peconha
 pedaco
 pedagio
 pedal
@@ -4507,8 +4394,6 @@ peitar
 peito
 peixe
 pejo
-pelada
-pelado
 pelar
 pele
 pelego
@@ -4630,7 +4515,6 @@ pior
 piora
 piorar
 pipa
-pipi
 pipoca
 pique
 piquete
@@ -4677,8 +4561,6 @@ plural
 pneu
 pobre
 pobreza
-poca
-pocao
 poco
 poda
 podar
@@ -4754,8 +4636,6 @@ postumo
 postura
 potavel
 pote
-potente
-potro
 pouco
 poupado
 poupar
@@ -4777,12 +4657,10 @@ pratica
 pratico
 prato
 praxe
-prazer
 prazo
 prece
 preciso
 preco
-precoce
 predial
 predica
 predio
@@ -4822,7 +4700,6 @@ procura
 prodigo
 produto
 proeza
-profano
 profeta
 proibir
 prole
@@ -4842,7 +4719,6 @@ proximo
 prumo
 psicose
 publico
-pudor
 pueril
 pujanca
 pular
@@ -4921,9 +4797,6 @@ rabisco
 raca
 racao
 rachar
-racial
-racismo
-racista
 radar
 radial
 radiar
@@ -4934,8 +4807,6 @@ raia
 raiar
 rainha
 raio
-raiva
-raivoso
 raiz
 rajada
 ralado
@@ -5104,7 +4975,6 @@ remorso
 remoto
 remover
 rena
-renal
 renda
 render
 rendido
@@ -5215,11 +5085,6 @@ robalo
 roberto
 robo
 robusto
-roca
-roca
-rocado
-rocar
-roceiro
 rocha
 rochedo
 rochoso
@@ -5288,7 +5153,6 @@ rubi
 rubro
 rude
 rudeza
-ruela
 rufar
 rufo
 ruga
@@ -5331,8 +5195,6 @@ sacro
 sacudir
 sadico
 sadio
-safanao
-safar
 safira
 safra
 saga
@@ -5343,7 +5205,6 @@ saguao
 saia
 saida
 saido
-saiote
 sair
 sala
 salada
@@ -5403,9 +5264,6 @@ sauna
 savana
 saxao
 seara
-sebe
-sebenta
-sebo
 seca
 secagem
 secar
@@ -5448,7 +5306,6 @@ semanal
 semear
 semente
 semi
-semita
 sempre
 senado
 senador
@@ -5460,7 +5317,6 @@ senhora
 seno
 sensato
 senso
-sensual
 sentado
 sentar
 sentido
@@ -5500,12 +5356,7 @@ sete
 setenta
 setimo
 severo
-sexo
 sexto
-sexual
-sibilar
-sido
-sifao
 sigilo
 sigla
 sigma
@@ -5534,10 +5385,7 @@ sinopse
 sintaxe
 sintese
 sintoma
-sinuoso
 sirene
-siria
-sirio
 sismico
 sismo
 sistema
@@ -5547,7 +5395,6 @@ sitiar
 sitio
 situado
 situar
-slogan
 soalho
 soar
 soberba
@@ -5631,7 +5478,6 @@ soturno
 sova
 sovaco
 sozinho
-status
 suado
 suar
 suave
@@ -5655,7 +5501,6 @@ sufocar
 sugar
 sugerir
 suica
-suicida
 suico
 suino
 sujar
@@ -5685,8 +5530,6 @@ suprir
 surdina
 surdo
 surgir
-surra
-surrado
 surtir
 surto
 suspiro
@@ -5726,7 +5569,6 @@ tamara
 tambem
 tambor
 tampa
-tampao
 tampo
 tanger
 tangido
@@ -5754,8 +5596,6 @@ taxa
 taxar
 taxi
 taxista
-tcheco
-tear
 teatral
 teatro
 tecelao
@@ -5881,8 +5721,6 @@ toldo
 tolerar
 tolher
 tolhido
-tolice
-tolo
 toma
 tomada
 tomado
@@ -5898,7 +5736,6 @@ tontura
 topar
 topico
 topo
-toque
 tora
 torax
 torcer
@@ -5918,28 +5755,17 @@ torto
 tosco
 tosse
 tossir
-tostado
-tostao
 total
 touca
 tourada
 touro
 toxico
 toxina
-trabuco
-traca
-tracado
-tracar
-traco
 trafego
 trafico
 tragado
-tragar
 tragico
 trago
-traicao
-traidor
-trair
 trajar
 traje
 trajo
@@ -6039,7 +5865,6 @@ turco
 turismo
 turista
 turma
-turne
 turno
 turvar
 turvo
@@ -6054,9 +5879,6 @@ ulcera
 ultimar
 ultimo
 ultra
-ultraje
-umbigo
-umbral
 umidade
 umido
 unanime
@@ -6089,9 +5911,6 @@ usar
 usina
 usual
 usuario
-usura
-uterino
-utero
 util
 utopia
 utopico
@@ -6099,7 +5918,6 @@ vacilar
 vacina
 vacinar
 vacuo
-vadio
 vaga
 vagao
 vagar
@@ -6130,7 +5948,6 @@ vampiro
 vandalo
 vapor
 vara
-varado
 varanda
 varao
 varapau
@@ -6207,7 +6024,6 @@ verso
 versus
 verter
 vertice
-vesgo
 vespa
 vespera
 veste
@@ -6228,12 +6044,7 @@ viario
 viatura
 viavel
 vibora
-vibrar
 vice
-viciado
-viciar
-vicio
-vicioso
 vicoso
 vida
 vide
@@ -6278,14 +6089,12 @@ viracao
 virado
 virar
 virgula
-viril
 virtual
 virtude
 virus
 visado
 visao
 visar
-viscera
 viscoso
 visita
 visitar
@@ -6323,10 +6132,8 @@ volta
 voltado
 voltar
 volume
-volupia
 volver
 volvido
-vomitar
 vontade
 voraz
 vosso
@@ -6336,8 +6143,6 @@ votar
 voto
 vovo
 vulcao
-vulgar
-vulgo
 vulto
 xadrez
 xale
@@ -6362,7 +6167,6 @@ zero
 zinco
 zodiaco
 zombar
-zona
 zumbido
 zumbir
 zunir
