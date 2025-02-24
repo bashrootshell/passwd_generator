@@ -1149,7 +1149,6 @@ cansado
 cansar
 cantado
 cantao
-cantar
 cantaro
 cantata
 cantico
@@ -1198,10 +1197,8 @@ carente
 careta
 carga
 cargo
-caricia
 carimbo
 carinho
-carioca
 carisma
 carne
 caro
@@ -2014,9 +2011,6 @@ drama
 drenar
 driblar
 drinque
-droga
-drogado
-drogar
 dubio
 ducado
 ducha
@@ -2978,7 +2972,6 @@ gringo
 gripe
 grita
 grito
-grosso
 grudado
 grudar
 grupo
@@ -3023,7 +3016,6 @@ herege
 heresia
 heroi
 heroico
-heroina
 hesitar
 hiato
 hibrido
@@ -3762,11 +3754,7 @@ melhor
 melodia
 membro
 mencao
-mendigo
 menear
-menina
-menino
-menor
 menos
 mensal
 mental
@@ -3861,8 +3849,6 @@ miudeza
 miudo
 mobilia
 mochila
-mocinha
-mocinho
 moda
 modelar
 modelo
@@ -4264,7 +4250,6 @@ palacio
 paladar
 palavra
 palco
-palerma
 paleta
 paleto
 palha
@@ -4356,7 +4341,6 @@ patria
 patrio
 patroa
 patrono
-paulada
 pausa
 pausado
 pauta
@@ -4440,12 +4424,10 @@ periodo
 periplo
 perito
 permuta
-perna
 pernada
 perola
 persa
 perto
-peruano
 peruca
 pesado
 pesames
@@ -4454,7 +4436,6 @@ pesca
 pescado
 pescar
 pescoco
-peseta
 peso
 pessego
 pessoa
@@ -4475,7 +4456,6 @@ pico
 piedade
 piedoso
 piegas
-pigarro
 pijama
 pilao
 pilar
