@@ -1544,7 +1544,6 @@ comedia
 comenda
 comento
 cometa
-cometer
 comicio
 comida
 comocao
@@ -1570,7 +1569,6 @@ confins
 confuso
 conjuge
 conluio
-console
 consolo
 constar
 consul
@@ -1618,7 +1616,6 @@ coroado
 coroar
 corola
 coronel
-corpo
 corpus
 corrego
 correia
@@ -2668,7 +2665,6 @@ fofo
 fofoca
 fogao
 fogo
-fogoso
 foguete
 foice
 fole
@@ -3311,7 +3307,6 @@ justa
 justica
 justo
 juvenil
-labio
 labor
 laborar
 labuta
@@ -3923,8 +3918,7 @@ morbido
 morcego
 morder
 mordido
-morena
-moreno
+
 morfina
 morno
 moroso
@@ -3993,7 +3987,6 @@ nadar
 nado
 nafta
 naipe
-namorar
 namoro
 nana
 narina
