@@ -1035,7 +1035,6 @@ busca
 buscado
 buscar
 bussola
-busto
 buxo
 buzina
 buzinar
@@ -3918,7 +3917,6 @@ morbido
 morcego
 morder
 mordido
-
 morfina
 morno
 moroso
@@ -4036,7 +4034,6 @@ nevoa
 nexo
 nicho
 ninar
-ninfa
 ninguem
 ninhada
 ninho
@@ -5194,7 +5191,6 @@ sagaz
 sagrado
 sagrar
 saguao
-saia
 saida
 saido
 sair
